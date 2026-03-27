@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.card h2 {
+    margin-top: 25px;
+    font-size: 16px;
+    height: 135px;      
+}
+.card img {
+    max-width: 150px;
+    border-radius: 4px;
+    height: 300px;
+}
+#btnfav{
+  background-color: #04AA6D;
+  border: none;              
+  color: white;         
+  padding: 15px 32px;        
+  text-align: center;        
+  text-decoration: none;     
+  font-size: 16px;        
+  cursor: pointer;           
+  border-radius: 8px; 
+}
+#div-prod{
+    max-height: 20%;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+header button{
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+section{
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#lista-produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+input{
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px; 
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+}
+
+section h1{
+    width: 100%;
+    margin-bottom: 32px;
+}
